@@ -1,0 +1,10 @@
+pytest==7.4.3
+pytest-html==4.1.1
+pytest-xdist==3.3.1
+requests==2.31.0
+python-dotenv==1.0.0
+allure-pytest==2.13.2
+faker==19.12.0
+pytest-logger==0.5.1
+black==23.11.0
+pre-commit==3.5.0
