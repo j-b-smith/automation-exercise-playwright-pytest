@@ -1,5 +1,4 @@
 """Test data for backend API tests."""
-import datetime
 from faker import Faker
 from utils.helpers import generate_test_user, generate_payment_details
 
