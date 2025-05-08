@@ -69,7 +69,7 @@ export function generateRandomUser() {
     company: faker.company.name(),
     address1: faker.location.streetAddress(),
     address2: faker.location.secondaryAddress(),
-    country: faker.location.country(),
+    country: 'United States',
     state: faker.location.state(),
     city: faker.location.city(),
     zipcode: faker.location.zipCode(),
