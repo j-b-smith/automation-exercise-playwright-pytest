@@ -1,4 +1,3 @@
-// tests/users.spec.ts
 import { test, expect } from '../src/fixtures/setup';
 import { LoginSignupPage } from '../src/pages/LoginSignupPage';
 import { SignupPage } from '../src/pages/SignupPage';
