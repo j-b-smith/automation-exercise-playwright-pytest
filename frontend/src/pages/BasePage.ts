@@ -19,14 +19,6 @@ export class BasePage {
   }
 
   /**
-   * Wait for page load
-   */
-  async waitForPageLoad(): Promise<void> {
-    await this.page.waitForLoadState('domcontentloaded');
-    await this.page.waitForLoadState('networkidle');
-  }
-
-  /**
    * Get page title
    * @returns Page title
    */
